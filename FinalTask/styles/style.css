@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #F0F0F0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    background-color: #6C32FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.sobreMim img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.sobreMim {
+  display: flex;
+  flex-direction: space-between;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sobreMim h2 {   
+    text-align: center;
+}
+
+.texto_sobreMim {
+    max-width: 60%;
+}
+
+#pre_botoes {
+    text-align: center;
+}
+
+.centraliza_conhecimento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conhecimento_button {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.conhecimento_button button{
+    background-color: #F0F0F0;
+    font-weight: bolder;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin:  0px 20px 0px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.conhecimento {
+    border: none;
+    border-radius: 20px;
+    background-color: #7954D8;
+    width: 100vh;
+    padding: 20px;
+}
+
+
+.conhecimento ul li {
+    display: flex;
+    justify-content: baseline;
+    padding: 8px;
+}
+
+ul{
+    color: black;
+    list-style: none;
+}
+
+
+li::before{
+    content:">";
+    margin-right: 5px;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    width: 60vh;
+ 
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
